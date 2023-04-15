@@ -1,0 +1,1090 @@
+[INFO ] 2023-03-02 11:54:17.268 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:17.273 [main] LoggerLoad - Testing on chrome
+[DEBUG] 2023-03-02 11:54:18.396 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-03-02 11:54:18.404 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-03-02 11:54:18.404 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-03-02 11:54:18.409 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@34cf294c
+[DEBUG] 2023-03-02 11:54:18.427 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-03-02 11:54:18.428 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-03-02 11:54:18.429 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-03-02 11:54:18.429 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-03-02 11:54:18.430 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-03-02 11:54:18.431 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-03-02 11:54:18.431 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-03-02 11:54:18.432 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-03-02 11:54:18.433 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @47fd17e3
+[DEBUG] 2023-03-02 11:54:18.434 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-03-02 11:54:18.434 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-03-02 11:54:18.436 [main] PlatformDependent - maxDirectMemory: 4213178368 bytes (maybe)
+[DEBUG] 2023-03-02 11:54:18.437 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\kiran\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-03-02 11:54:18.437 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-03-02 11:54:18.437 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-03-02 11:54:18.438 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-03-02 11:54:18.438 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-03-02 11:54:18.440 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-03-02 11:54:18.440 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-03-02 11:54:18.444 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-03-02 11:54:18.457 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-03-02 11:54:18.457 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-03-02 11:54:18.466 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-03-02 11:54:18.466 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-03-02 11:54:18.485 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+[DEBUG] 2023-03-02 11:54:18.491 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-03-02 11:54:18.492 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-03-02 11:54:18.546 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-03-02 11:54:18.547 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-03-02 11:54:18.547 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-03-02 11:54:18.547 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-03-02 11:54:18.547 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-03-02 11:54:18.547 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-03-02 11:54:18.558 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-03-02 11:54:18.558 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-03-02 11:54:18.558 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-03-02 11:54:18.804 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 39556 (auto-detected)
+[DEBUG] 2023-03-02 11:54:18.808 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-03-02 11:54:18.808 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-03-02 11:54:18.816 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-03-02 11:54:18.818 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-03-02 11:54:18.839 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 78:af:08:ff:fe:9b:18:29 (auto-detected)
+[DEBUG] 2023-03-02 11:54:18.894 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-03-02 11:54:18.894 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-03-02 11:54:18.895 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3db7899e
+[DEBUG] 2023-03-02 11:54:18.922 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-03-02 11:54:18.922 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-03-02 11:54:18.922 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-03-02 11:54:18.923 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-03-02 11:54:19.498 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-03-02 11:54:19.579 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x415e1472130b5990
+[INFO ] 2023-03-02 11:54:19.764 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:19.764 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:19.765 [main] LoggerLoad - [@TS_01] : User launch home page of an dsalgo project
+[INFO ] 2023-03-02 11:54:19.765 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:19.774 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:19.884 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:20.092 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:20.092 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:21.024 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:21.025 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:21.025 [main] LoggerLoad - [@TS_02] : User is on Home page and click getstarted link on  home page without sign in
+[INFO ] 2023-03-02 11:54:21.025 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:21.026 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:21.126 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:21.318 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:21.319 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:22.173 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:22.173 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:22.173 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Structure Data" without sign in
+[INFO ] 2023-03-02 11:54:22.173 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:22.174 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:22.275 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:22.469 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:22.470 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:23.309 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:23.309 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:23.309 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-03-02 11:54:23.309 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:23.310 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:23.429 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:23.639 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:23.640 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:24.512 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:24.512 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:24.512 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-03-02 11:54:24.512 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:24.513 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:24.625 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:24.820 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:24.821 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:25.693 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:25.694 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:25.694 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-03-02 11:54:25.694 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:25.695 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:25.813 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:26.006 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:26.006 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:26.822 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:26.822 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:26.822 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-03-02 11:54:26.822 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:26.823 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:26.940 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:27.133 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:27.133 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:28.009 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:28.010 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:28.010 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-03-02 11:54:28.010 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:28.011 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:28.113 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:28.304 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:28.305 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:29.162 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:29.162 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:29.162 [main] LoggerLoad - [@TS_03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-03-02 11:54:29.162 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:29.163 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:29.274 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:29.456 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:29.457 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:30.348 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:30.348 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:30.348 [main] LoggerLoad - [@TS_04] : User is on Home page and click on sign in
+[INFO ] 2023-03-02 11:54:30.348 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:30.349 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:30.448 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-02 11:54:30.640 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-02 11:54:30.641 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-02 11:54:31.452 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-02 11:54:31.453 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-02 11:54:31.453 [main] LoggerLoad - [@TS_05] : User is on Home page and click on Register
+[INFO ] 2023-03-02 11:54:31.453 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-02 11:54:31.454 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-02 11:54:31.548 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:34.650 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:34.655 [main] LoggerLoad - Testing on chrome
+[DEBUG] 2023-03-09 11:23:35.944 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-03-09 11:23:35.947 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-03-09 11:23:35.948 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-03-09 11:23:35.964 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5c53f292
+[DEBUG] 2023-03-09 11:23:35.978 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-03-09 11:23:35.978 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-03-09 11:23:35.979 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-03-09 11:23:35.980 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-03-09 11:23:35.981 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-03-09 11:23:35.983 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-03-09 11:23:35.984 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-03-09 11:23:35.985 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-03-09 11:23:35.986 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @33833882
+[DEBUG] 2023-03-09 11:23:35.988 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-03-09 11:23:35.988 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-03-09 11:23:35.989 [main] PlatformDependent - maxDirectMemory: 4213178368 bytes (maybe)
+[DEBUG] 2023-03-09 11:23:35.990 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\kiran\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-03-09 11:23:35.990 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-03-09 11:23:35.990 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-03-09 11:23:35.991 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-03-09 11:23:35.991 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-03-09 11:23:35.992 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-03-09 11:23:35.992 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-03-09 11:23:36.000 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-03-09 11:23:36.019 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-03-09 11:23:36.019 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-03-09 11:23:36.030 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-03-09 11:23:36.030 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-03-09 11:23:36.059 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+[DEBUG] 2023-03-09 11:23:36.069 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-03-09 11:23:36.069 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-03-09 11:23:36.119 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+[DEBUG] 2023-03-09 11:23:36.119 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-03-09 11:23:36.120 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-03-09 11:23:36.130 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-03-09 11:23:36.131 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-03-09 11:23:36.131 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-03-09 11:23:37.374 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 26240 (auto-detected)
+[DEBUG] 2023-03-09 11:23:37.375 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-03-09 11:23:37.375 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-03-09 11:23:37.380 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-03-09 11:23:37.381 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-03-09 11:23:37.392 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 78:af:08:ff:fe:9b:18:29 (auto-detected)
+[DEBUG] 2023-03-09 11:23:37.426 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-03-09 11:23:37.427 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-03-09 11:23:37.427 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17164af
+[DEBUG] 2023-03-09 11:23:37.444 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-03-09 11:23:37.444 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-03-09 11:23:37.444 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-03-09 11:23:37.445 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-03-09 11:23:38.005 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-03-09 11:23:38.092 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc62009299f8d3335
+[INFO ] 2023-03-09 11:23:38.285 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:38.286 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:38.287 [main] LoggerLoad - [] : The user is logged in to DS Algo portal
+[INFO ] 2023-03-09 11:23:38.287 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:38.289 [main] LoggerLoad -  user on home page
+[ERROR] 2023-03-09 11:23:38.324 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:38.441 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:38.721 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:38.722 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:39.561 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:39.562 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:39.562 [main] LoggerLoad - [] : The user is able to navigate to Data Structure introduction page
+[INFO ] 2023-03-09 11:23:39.562 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:23:39.564 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:39.692 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:39.889 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:39.890 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:40.703 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:40.703 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:40.704 [main] LoggerLoad - [] : The user is able to navigate to Time Complexity page
+[INFO ] 2023-03-09 11:23:40.704 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:23:40.706 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:40.823 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:41.038 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:41.039 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:41.836 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:41.837 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:41.838 [main] LoggerLoad - [] : The user is able to navigate to a page having an tryEditor from Time Complexity page
+[INFO ] 2023-03-09 11:23:41.838 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:23:41.841 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:41.967 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:42.157 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:42.161 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:43.088 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:43.089 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:43.089 [main] LoggerLoad - [] : The user is able run code in tryEditor for Time Complexity page
+[INFO ] 2023-03-09 11:23:43.089 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:23:43.092 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:43.214 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:43.404 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:43.405 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:44.240 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:44.240 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:44.240 [main] LoggerLoad - [] : The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page
+[INFO ] 2023-03-09 11:23:44.240 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:23:44.241 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:44.362 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:44.560 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:44.561 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:45.379 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:45.380 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:45.380 [main] LoggerLoad - [@TC_01] : User launch home page of an dsalgo project
+[INFO ] 2023-03-09 11:23:45.380 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:45.381 [main] LoggerLoad - User is on DSAlgo portal page
+[INFO ] 2023-03-09 11:23:45.682 [main] LoggerLoad - User clicks on 'Getstarted link' on DSAlgo portal page
+[INFO ] 2023-03-09 11:23:46.010 [main] LoggerLoad - Title of current page is  NumpyNinja 
+[ERROR] 2023-03-09 11:23:46.012 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:46.185 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:46.382 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:46.383 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:47.215 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:47.215 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:47.215 [main] LoggerLoad - [@TC_02] : User is on Home page and click getstarted link on  home page without sign in
+[INFO ] 2023-03-09 11:23:47.215 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:47.215 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:47.219 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:47.325 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:47.520 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:47.524 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:48.333 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:48.333 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:48.333 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Structure Data" without sign in
+[INFO ] 2023-03-09 11:23:48.333 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:48.334 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:48.336 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:48.456 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:48.654 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:48.655 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:49.475 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:49.475 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:49.475 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-03-09 11:23:49.475 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:49.475 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:49.478 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:49.615 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:49.794 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:49.795 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:50.631 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:50.632 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:50.632 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-03-09 11:23:50.632 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:50.632 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:50.638 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:50.796 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:50.995 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:50.996 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:51.834 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:51.834 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:51.834 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-03-09 11:23:51.835 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:51.835 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:51.838 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:51.958 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:52.120 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:52.121 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:52.938 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:52.938 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:52.939 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-03-09 11:23:52.939 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:52.939 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:52.940 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:53.062 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:53.207 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:53.207 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:54.009 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:54.009 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:54.009 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-03-09 11:23:54.009 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:54.009 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:54.011 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:54.125 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:54.311 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:54.312 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:55.116 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:55.116 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:55.116 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-03-09 11:23:55.116 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:55.117 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:55.119 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:55.238 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:55.430 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:55.431 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:56.248 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:56.248 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:56.249 [main] LoggerLoad - [@TC_04] : User is on Home page and click on sign in
+[INFO ] 2023-03-09 11:23:56.249 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:56.249 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:56.255 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:56.372 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:56.564 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:56.564 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:57.352 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:57.352 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:57.353 [main] LoggerLoad - [@TC_05] : User is on Home page and click on Register
+[INFO ] 2023-03-09 11:23:57.353 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:57.353 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:23:57.355 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:57.475 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:57.672 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:57.672 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:58.446 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:58.446 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:58.446 [main] LoggerLoad - [@TC_1] : User launch home page of an dsalgo project
+[INFO ] 2023-03-09 11:23:58.446 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:23:58.447 [main] LoggerLoad - User is on DSAlgo portal page
+[ERROR] 2023-03-09 11:23:58.450 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:58.559 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:58.751 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:58.751 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:23:59.537 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:23:59.537 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:23:59.537 [main] LoggerLoad - [@TC_2] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-03-09 11:23:59.538 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:23:59.539 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:23:59.643 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:23:59.777 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:23:59.777 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:00.596 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:00.597 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:00.597 [main] LoggerLoad - [@TC_3] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-03-09 11:24:00.597 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:00.601 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:00.712 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:00.846 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:00.846 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:01.655 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:01.655 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:01.655 [main] LoggerLoad - [@TC_4] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-03-09 11:24:01.655 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:01.659 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:01.778 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:01.924 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:01.925 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:02.728 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:02.728 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:02.728 [main] LoggerLoad - [@TC_5] : The user is presented with error message for invalid username
+[INFO ] 2023-03-09 11:24:02.729 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:02.731 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:02.846 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:03.030 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:03.030 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:03.790 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:03.790 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:03.790 [main] LoggerLoad - [@TC_6] : The user is presented with error message for password mismatch
+[INFO ] 2023-03-09 11:24:03.790 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:03.791 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:03.907 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:04.093 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:04.094 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:04.863 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:04.864 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:04.864 [main] LoggerLoad - [@TC_7] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-03-09 11:24:04.864 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:04.868 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:04.976 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:05.160 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:05.160 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:05.964 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:05.965 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:05.965 [main] LoggerLoad - [@TC_8] : The user is presented with error message for password with only numbers
+[INFO ] 2023-03-09 11:24:05.965 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:05.968 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:06.074 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:06.251 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:06.251 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:07.008 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:07.008 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:07.008 [main] LoggerLoad - [@TC_9] : The user is succesfully able to register
+[INFO ] 2023-03-09 11:24:07.008 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:07.009 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:07.102 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:07.248 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:07.249 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:08.067 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:08.068 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:08.068 [main] LoggerLoad - [@TC_10] : The user is presented with error message for existing username
+[INFO ] 2023-03-09 11:24:08.068 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:08.069 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:08.179 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:08.366 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:08.367 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:09.159 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:09.159 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:09.159 [main] LoggerLoad - [@TC_11] : The user is able to signin with registered credential
+[INFO ] 2023-03-09 11:24:09.159 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:09.160 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:09.278 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:09.464 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:09.464 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:10.268 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:10.268 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:10.268 [main] LoggerLoad - [@TC_01] : Verifying Register link
+[INFO ] 2023-03-09 11:24:10.268 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:10.269 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:10.381 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:10.508 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:10.508 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:11.313 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:11.314 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:11.314 [main] LoggerLoad - [@TC_02] : User on login page and login with invalid inputs
+[INFO ] 2023-03-09 11:24:11.314 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:11.315 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:11.436 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:11.582 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:11.583 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:12.392 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:12.392 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:12.392 [main] LoggerLoad - [@TC_03] : "User on login page and login with
+[INFO ] 2023-03-09 11:24:12.392 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:24:12.393 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:12.540 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:24:12.723 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:24:12.723 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:24:13.546 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:24:13.546 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:24:13.546 [main] LoggerLoad - [@TC_04] : Verifying signout link
+[INFO ] 2023-03-09 11:24:13.546 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:24:13.547 [main] LoggerLoad - User clicks on Sign in 
+[ERROR] 2023-03-09 11:24:13.548 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:24:13.655 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:12.894 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:12.900 [main] LoggerLoad - Testing on chrome
+[DEBUG] 2023-03-09 11:36:13.300 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-03-09 11:36:13.307 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-03-09 11:36:13.307 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-03-09 11:36:13.310 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@11d045b4
+[DEBUG] 2023-03-09 11:36:13.322 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-03-09 11:36:13.322 [main] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-03-09 11:36:13.323 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-03-09 11:36:13.324 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-03-09 11:36:13.324 [main] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-03-09 11:36:13.325 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-03-09 11:36:13.325 [main] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-03-09 11:36:13.325 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-03-09 11:36:13.326 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @33833882
+[DEBUG] 2023-03-09 11:36:13.329 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-03-09 11:36:13.329 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-03-09 11:36:13.329 [main] PlatformDependent - maxDirectMemory: 4213178368 bytes (maybe)
+[DEBUG] 2023-03-09 11:36:13.330 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\kiran\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-03-09 11:36:13.330 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-03-09 11:36:13.331 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2023-03-09 11:36:13.331 [main] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-03-09 11:36:13.332 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-03-09 11:36:13.333 [main] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-03-09 11:36:13.333 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-03-09 11:36:13.338 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-03-09 11:36:13.352 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-03-09 11:36:13.353 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-03-09 11:36:13.393 [main] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-03-09 11:36:13.393 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-03-09 11:36:13.424 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+[DEBUG] 2023-03-09 11:36:13.441 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-03-09 11:36:13.441 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-03-09 11:36:13.497 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-03-09 11:36:13.510 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-03-09 11:36:13.510 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-03-09 11:36:13.510 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-03-09 11:36:13.727 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 23896 (auto-detected)
+[DEBUG] 2023-03-09 11:36:13.728 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-03-09 11:36:13.728 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-03-09 11:36:13.733 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-03-09 11:36:13.734 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-03-09 11:36:13.746 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 78:af:08:ff:fe:9b:18:29 (auto-detected)
+[DEBUG] 2023-03-09 11:36:13.776 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-03-09 11:36:13.776 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-03-09 11:36:13.776 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@56564034
+[DEBUG] 2023-03-09 11:36:13.789 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-03-09 11:36:13.789 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-03-09 11:36:13.790 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-03-09 11:36:13.790 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-03-09 11:36:14.338 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-03-09 11:36:14.443 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x550232ba7a5cec34
+[INFO ] 2023-03-09 11:36:14.626 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:14.627 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:14.627 [main] LoggerLoad - [] : The user is logged in to DS Algo portal
+[INFO ] 2023-03-09 11:36:14.627 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:14.629 [main] LoggerLoad -  user on home page
+[ERROR] 2023-03-09 11:36:14.677 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:14.849 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:15.090 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:15.091 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:15.873 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:15.874 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:15.874 [main] LoggerLoad - [] : The user is able to navigate to Data Structure introduction page
+[INFO ] 2023-03-09 11:36:15.874 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:15.876 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:15.993 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:16.205 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:16.206 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:17.012 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:17.013 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:17.013 [main] LoggerLoad - [] : The user is able to navigate to Time Complexity page
+[INFO ] 2023-03-09 11:36:17.013 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:17.014 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:17.126 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:17.328 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:17.329 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:18.167 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:18.168 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:18.168 [main] LoggerLoad - [] : The user is able to navigate to a page having an tryEditor from Time Complexity page
+[INFO ] 2023-03-09 11:36:18.168 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:18.170 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:18.290 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:18.488 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:18.489 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:19.349 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:19.350 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:19.350 [main] LoggerLoad - [] : The user is able run code in tryEditor for Time Complexity page
+[INFO ] 2023-03-09 11:36:19.350 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:19.352 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:19.469 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:19.625 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:19.626 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:20.410 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:20.411 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:20.411 [main] LoggerLoad - [] : The user is presented with error message for code with invalid syntax in tryEditor for Time Complexity page
+[INFO ] 2023-03-09 11:36:20.411 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:20.412 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:20.559 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:20.749 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:20.750 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:21.582 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:21.584 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:21.584 [main] LoggerLoad - [@TC_01] : User launch home page of an dsalgo project
+[INFO ] 2023-03-09 11:36:21.584 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:21.585 [main] LoggerLoad - User is on DSAlgo portal page
+[INFO ] 2023-03-09 11:36:21.921 [main] LoggerLoad - User clicks on 'Getstarted link' on DSAlgo portal page
+[INFO ] 2023-03-09 11:36:22.321 [main] LoggerLoad - Title of current page is  NumpyNinja 
+[ERROR] 2023-03-09 11:36:22.323 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:22.511 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:22.659 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:22.660 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:23.485 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:23.485 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:23.486 [main] LoggerLoad - [@TC_02] : User is on Home page and click getstarted link on  home page without sign in
+[INFO ] 2023-03-09 11:36:23.486 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:23.487 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:23.499 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:23.625 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:23.827 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:23.828 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:24.667 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:24.668 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:24.668 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Structure Data" without sign in
+[INFO ] 2023-03-09 11:36:24.668 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:24.669 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:24.670 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:24.766 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:24.959 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:24.960 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:25.728 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:25.729 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:25.729 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-03-09 11:36:25.729 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:25.729 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:25.732 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:25.854 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:26.044 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:26.045 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:26.832 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:26.833 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:26.833 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-03-09 11:36:26.833 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:26.834 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:26.837 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:26.963 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:27.149 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:27.149 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:27.969 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:27.970 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:27.970 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-03-09 11:36:27.970 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:27.970 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:27.973 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:28.092 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:28.242 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:28.243 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:29.068 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:29.069 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:29.069 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-03-09 11:36:29.069 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:29.069 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:29.071 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:29.183 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:29.374 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:29.375 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:30.212 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:30.212 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:30.212 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-03-09 11:36:30.213 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:30.213 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:30.214 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:30.333 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:30.500 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:30.502 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:31.330 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:31.330 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:31.330 [main] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-03-09 11:36:31.330 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:31.330 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:31.332 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:31.463 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:31.644 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:31.645 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:32.458 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:32.458 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:32.458 [main] LoggerLoad - [@TC_04] : User is on Home page and click on sign in
+[INFO ] 2023-03-09 11:36:32.458 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:32.458 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:32.460 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:32.578 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:32.712 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:32.713 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:33.518 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:33.519 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:33.519 [main] LoggerLoad - [@TC_05] : User is on Home page and click on Register
+[INFO ] 2023-03-09 11:36:33.519 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:33.519 [main] LoggerLoad - User is on Home page
+[ERROR] 2023-03-09 11:36:33.521 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:33.627 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:33.818 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:33.819 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:34.640 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:34.641 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:34.641 [main] LoggerLoad - [@TC_1] : User launch home page of an dsalgo project
+[INFO ] 2023-03-09 11:36:34.641 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:34.641 [main] LoggerLoad - User is on DSAlgo portal page
+[ERROR] 2023-03-09 11:36:34.643 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:34.769 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:34.959 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:34.959 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:35.749 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:35.750 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:35.750 [main] LoggerLoad - [@TC_2] : The user is presented with error message for empty fields below Username textbox
+[INFO ] 2023-03-09 11:36:35.750 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:35.752 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:35.859 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:36.021 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:36.022 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:36.825 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:36.825 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:36.825 [main] LoggerLoad - [@TC_3] : The user is presented with error message for empty fields below Password textbox
+[INFO ] 2023-03-09 11:36:36.825 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:36.830 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:36.954 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:37.078 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:37.078 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:37.900 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:37.900 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:37.901 [main] LoggerLoad - [@TC_4] : The user is presented with error message for empty fields below Password Confirmation textbox
+[INFO ] 2023-03-09 11:36:37.901 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:37.904 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:38.034 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:38.220 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:38.220 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:39.023 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:39.023 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:39.023 [main] LoggerLoad - [@TC_5] : The user is presented with error message for invalid username
+[INFO ] 2023-03-09 11:36:39.024 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:39.026 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:39.141 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:39.292 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:39.292 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:40.112 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:40.113 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:40.113 [main] LoggerLoad - [@TC_6] : The user is presented with error message for password mismatch
+[INFO ] 2023-03-09 11:36:40.113 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:40.115 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:40.220 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:40.399 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:40.399 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:41.207 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:41.207 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:41.207 [main] LoggerLoad - [@TC_7] : The user is presented with error message for password with characters less than 8
+[INFO ] 2023-03-09 11:36:41.207 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:41.210 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:41.328 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:41.524 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:41.525 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:42.329 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:42.329 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:42.329 [main] LoggerLoad - [@TC_8] : The user is presented with error message for password with only numbers
+[INFO ] 2023-03-09 11:36:42.329 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:42.331 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:42.453 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:42.588 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:42.588 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:43.422 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:43.423 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:43.423 [main] LoggerLoad - [@TC_9] : The user is succesfully able to register
+[INFO ] 2023-03-09 11:36:43.423 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:43.423 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:43.546 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:43.676 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:43.676 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:44.483 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:44.484 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:44.484 [main] LoggerLoad - [@TC_10] : The user is presented with error message for existing username
+[INFO ] 2023-03-09 11:36:44.484 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:44.485 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:44.588 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:44.754 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:44.755 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:45.576 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:45.576 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:45.576 [main] LoggerLoad - [@TC_11] : The user is able to signin with registered credential
+[INFO ] 2023-03-09 11:36:45.576 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:45.577 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:45.707 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:45.846 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:45.846 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:46.652 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:46.652 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:46.652 [main] LoggerLoad - [@TC_01] : Verifying Register link
+[INFO ] 2023-03-09 11:36:46.652 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:46.653 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:46.758 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:46.950 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:46.951 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:47.762 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:47.763 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:47.763 [main] LoggerLoad - [@TC_02] : User on login page and login with invalid inputs
+[INFO ] 2023-03-09 11:36:47.763 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:47.763 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:47.874 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:48.036 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:48.037 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:48.792 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:48.794 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:48.794 [main] LoggerLoad - [@TC_03] : "User on login page and login with
+[INFO ] 2023-03-09 11:36:48.794 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-09 11:36:48.795 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:48.909 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-09 11:36:49.063 [main] LoggerLoad - Loading Config file
+[INFO ] 2023-03-09 11:36:49.063 [main] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-09 11:36:49.861 [main] LoggerLoad - Initializing driver for : chrome
+[INFO ] 2023-03-09 11:36:49.861 [main] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-09 11:36:49.861 [main] LoggerLoad - [@TC_04] : Verifying signout link
+[INFO ] 2023-03-09 11:36:49.861 [main] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-09 11:36:49.862 [main] LoggerLoad - User clicks on Sign in 
+[ERROR] 2023-03-09 11:36:49.863 [main] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-09 11:36:49.983 [main] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-0] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-8] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-7] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-9] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.129 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.150 [TestNG-PoolService-1] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.150 [TestNG-PoolService-2] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.152 [TestNG-PoolService-4] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.153 [TestNG-PoolService-3] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.154 [TestNG-PoolService-9] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.154 [TestNG-PoolService-6] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.155 [TestNG-PoolService-5] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.155 [TestNG-PoolService-8] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.155 [TestNG-PoolService-0] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:08:15.163 [TestNG-PoolService-7] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:15.163 [TestNG-PoolService-7] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-03-20 18:08:15.164 [TestNG-PoolService-7] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:15.168 [TestNG-PoolService-7] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:15.176 [TestNG-PoolService-7] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:15.360 [TestNG-PoolService-7] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:08:15.361 [TestNG-PoolService-7] LoggerLoad - Testing on chrome
+[DEBUG] 2023-03-20 18:08:16.849 [TestNG-PoolService-5] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-03-20 18:08:16.860 [TestNG-PoolService-5] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-03-20 18:08:16.860 [TestNG-PoolService-5] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-03-20 18:08:16.862 [TestNG-PoolService-5] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@14d144de
+[DEBUG] 2023-03-20 18:08:16.888 [TestNG-PoolService-5] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-03-20 18:08:16.888 [TestNG-PoolService-5] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-03-20 18:08:16.894 [TestNG-PoolService-5] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-03-20 18:08:16.895 [TestNG-PoolService-5] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-03-20 18:08:16.897 [TestNG-PoolService-5] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-03-20 18:08:16.897 [TestNG-PoolService-5] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-03-20 18:08:16.898 [TestNG-PoolService-5] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-03-20 18:08:16.898 [TestNG-PoolService-5] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-03-20 18:08:16.899 [TestNG-PoolService-5] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @33833882
+[DEBUG] 2023-03-20 18:08:16.900 [TestNG-PoolService-5] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-03-20 18:08:16.900 [TestNG-PoolService-5] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-03-20 18:08:16.900 [TestNG-PoolService-5] PlatformDependent - maxDirectMemory: 4213178368 bytes (maybe)
+[DEBUG] 2023-03-20 18:08:16.901 [TestNG-PoolService-5] PlatformDependent - -Dio.netty.tmpdir: C:\Users\kiran\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-03-20 18:08:16.901 [TestNG-PoolService-5] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-03-20 18:08:16.901 [TestNG-PoolService-5] PlatformDependent - Platform: Windows
+[DEBUG] 2023-03-20 18:08:16.902 [TestNG-PoolService-5] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-03-20 18:08:16.902 [TestNG-PoolService-5] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-03-20 18:08:16.904 [TestNG-PoolService-5] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-03-20 18:08:16.904 [TestNG-PoolService-5] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-03-20 18:08:16.912 [TestNG-PoolService-5] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-03-20 18:08:16.930 [TestNG-PoolService-5] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-03-20 18:08:16.930 [TestNG-PoolService-5] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-03-20 18:08:16.941 [TestNG-PoolService-5] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-03-20 18:08:16.941 [TestNG-PoolService-5] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-03-20 18:08:16.957 [TestNG-PoolService-5] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+[DEBUG] 2023-03-20 18:08:16.963 [TestNG-PoolService-5] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-03-20 18:08:16.964 [TestNG-PoolService-5] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-03-20 18:08:17.007 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-03-20 18:08:17.008 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-03-20 18:08:17.008 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-03-20 18:08:17.008 [TestNG-PoolService-5] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-03-20 18:08:17.018 [TestNG-PoolService-5] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-03-20 18:08:17.018 [TestNG-PoolService-5] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-03-20 18:08:17.018 [TestNG-PoolService-5] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-03-20 18:08:17.434 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 25144 (auto-detected)
+[DEBUG] 2023-03-20 18:08:17.454 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-03-20 18:08:17.454 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-03-20 18:08:17.475 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-03-20 18:08:17.477 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-03-20 18:08:17.501 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 78:af:08:ff:fe:9b:18:29 (auto-detected)
+[DEBUG] 2023-03-20 18:08:17.555 [AsyncHttpClient-1-5] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-03-20 18:08:17.556 [AsyncHttpClient-1-5] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-03-20 18:08:17.557 [AsyncHttpClient-1-5] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cb295c1
+[DEBUG] 2023-03-20 18:08:17.588 [AsyncHttpClient-1-4] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-03-20 18:08:17.589 [AsyncHttpClient-1-4] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-03-20 18:08:17.589 [AsyncHttpClient-1-4] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-03-20 18:08:17.589 [AsyncHttpClient-1-4] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-03-20 18:08:20.626 [AsyncHttpClient-1-7] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-03-20 18:08:21.215 [TestNG-PoolService-4] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xee5f7a0fd73d2cc4
+[INFO ] 2023-03-20 18:08:21.251 [TestNG-PoolService-4] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.251 [TestNG-PoolService-4] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-03-20 18:08:21.251 [TestNG-PoolService-4] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:21.254 [TestNG-PoolService-4] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:21.259 [TestNG-PoolService-4] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:21.383 [TestNG-PoolService-1] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.384 [TestNG-PoolService-1] LoggerLoad - [@TC_02] : User is on Home page and click getstarted link on  home page without sign in
+[INFO ] 2023-03-20 18:08:21.384 [TestNG-PoolService-1] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:21.386 [TestNG-PoolService-1] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:21.389 [TestNG-PoolService-1] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:21.395 [TestNG-PoolService-8] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.395 [TestNG-PoolService-8] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-03-20 18:08:21.395 [TestNG-PoolService-8] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:21.397 [TestNG-PoolService-8] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:21.399 [TestNG-PoolService-8] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:21.400 [TestNG-PoolService-6] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.401 [TestNG-PoolService-6] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-03-20 18:08:21.401 [TestNG-PoolService-6] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:21.402 [TestNG-PoolService-6] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:21.404 [TestNG-PoolService-9] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.404 [TestNG-PoolService-9] LoggerLoad - [@TC_04] : User is on Home page and click on sign in
+[INFO ] 2023-03-20 18:08:21.404 [TestNG-PoolService-9] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-20 18:08:21.405 [TestNG-PoolService-6] LoggerLoad - Closing Driver
+[ERROR] 2023-03-20 18:08:21.406 [TestNG-PoolService-9] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:21.408 [TestNG-PoolService-9] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:21.849 [TestNG-PoolService-0] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.849 [TestNG-PoolService-0] LoggerLoad - [@TC_01] : User launch home page of an dsalgo project
+[INFO ] 2023-03-20 18:08:21.849 [TestNG-PoolService-0] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-20 18:08:21.851 [TestNG-PoolService-5] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:21.851 [TestNG-PoolService-5] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-03-20 18:08:21.851 [TestNG-PoolService-5] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:21.854 [TestNG-PoolService-0] LoggerLoad - Steps Failed , Taking Screenshot
+[ERROR] 2023-03-20 18:08:21.856 [TestNG-PoolService-5] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:21.861 [TestNG-PoolService-0] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:21.862 [TestNG-PoolService-5] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:22.787 [TestNG-PoolService-3] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:22.788 [TestNG-PoolService-3] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-03-20 18:08:22.788 [TestNG-PoolService-3] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:22.790 [TestNG-PoolService-3] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:22.792 [TestNG-PoolService-3] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:23.018 [TestNG-PoolService-2] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:23.018 [TestNG-PoolService-2] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Structure Data" without sign in
+[INFO ] 2023-03-20 18:08:23.018 [TestNG-PoolService-2] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:23.020 [TestNG-PoolService-2] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:23.021 [TestNG-PoolService-2] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:08:23.093 [TestNG-PoolService-7] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:08:23.093 [TestNG-PoolService-7] LoggerLoad - [@TC_05] : User is on Home page and click on Register
+[INFO ] 2023-03-20 18:08:23.093 [TestNG-PoolService-7] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:08:23.095 [TestNG-PoolService-7] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:08:23.097 [TestNG-PoolService-7] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-9] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-4] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-3] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-8] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-6] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-1] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-0] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-5] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.199 [TestNG-PoolService-9] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.200 [TestNG-PoolService-2] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.191 [TestNG-PoolService-7] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:20.202 [TestNG-PoolService-6] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.199 [TestNG-PoolService-0] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.199 [TestNG-PoolService-1] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.203 [TestNG-PoolService-5] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.204 [TestNG-PoolService-8] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.204 [TestNG-PoolService-4] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.205 [TestNG-PoolService-7] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:20.205 [TestNG-PoolService-3] LoggerLoad - Testing on chrome
+[DEBUG] 2023-03-20 18:13:20.717 [TestNG-PoolService-7] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2023-03-20 18:13:20.728 [TestNG-PoolService-7] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2023-03-20 18:13:20.729 [TestNG-PoolService-7] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2023-03-20 18:13:20.732 [TestNG-PoolService-7] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@670bab73
+[DEBUG] 2023-03-20 18:13:20.772 [TestNG-PoolService-7] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2023-03-20 18:13:20.773 [TestNG-PoolService-7] PlatformDependent0 - Java version: 19
+[DEBUG] 2023-03-20 18:13:20.776 [TestNG-PoolService-7] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2023-03-20 18:13:20.778 [TestNG-PoolService-7] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2023-03-20 18:13:20.779 [TestNG-PoolService-7] PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+[DEBUG] 2023-03-20 18:13:20.782 [TestNG-PoolService-7] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2023-03-20 18:13:20.783 [TestNG-PoolService-7] PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] 2023-03-20 18:13:20.786 [TestNG-PoolService-7] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2023-03-20 18:13:20.793 [TestNG-PoolService-7] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @33833882
+[DEBUG] 2023-03-20 18:13:20.798 [TestNG-PoolService-7] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] 2023-03-20 18:13:20.799 [TestNG-PoolService-7] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2023-03-20 18:13:20.800 [TestNG-PoolService-7] PlatformDependent - maxDirectMemory: 4213178368 bytes (maybe)
+[DEBUG] 2023-03-20 18:13:20.801 [TestNG-PoolService-7] PlatformDependent - -Dio.netty.tmpdir: C:\Users\kiran\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2023-03-20 18:13:20.801 [TestNG-PoolService-7] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2023-03-20 18:13:20.803 [TestNG-PoolService-7] PlatformDependent - Platform: Windows
+[DEBUG] 2023-03-20 18:13:20.807 [TestNG-PoolService-7] PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] 2023-03-20 18:13:20.807 [TestNG-PoolService-7] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2023-03-20 18:13:20.811 [TestNG-PoolService-7] CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2023-03-20 18:13:20.812 [TestNG-PoolService-7] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2023-03-20 18:13:20.825 [TestNG-PoolService-7] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2023-03-20 18:13:20.869 [TestNG-PoolService-7] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2023-03-20 18:13:20.870 [TestNG-PoolService-7] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2023-03-20 18:13:20.944 [TestNG-PoolService-7] JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] 2023-03-20 18:13:20.945 [TestNG-PoolService-7] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] 2023-03-20 18:13:21.011 [TestNG-PoolService-7] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+[DEBUG] 2023-03-20 18:13:21.021 [TestNG-PoolService-7] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2023-03-20 18:13:21.021 [TestNG-PoolService-7] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2023-03-20 18:13:21.089 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2023-03-20 18:13:21.090 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2023-03-20 18:13:21.090 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] 2023-03-20 18:13:21.090 [TestNG-PoolService-7] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2023-03-20 18:13:21.103 [TestNG-PoolService-7] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2023-03-20 18:13:21.103 [TestNG-PoolService-7] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2023-03-20 18:13:21.104 [TestNG-PoolService-7] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2023-03-20 18:13:21.967 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 35192 (auto-detected)
+[DEBUG] 2023-03-20 18:13:21.969 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2023-03-20 18:13:21.970 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2023-03-20 18:13:21.981 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2023-03-20 18:13:21.982 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2023-03-20 18:13:22.003 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: 78:af:08:ff:fe:9b:18:29 (auto-detected)
+[DEBUG] 2023-03-20 18:13:22.066 [AsyncHttpClient-1-4] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2023-03-20 18:13:22.067 [AsyncHttpClient-1-4] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2023-03-20 18:13:22.067 [AsyncHttpClient-1-4] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@580b9f3f
+[DEBUG] 2023-03-20 18:13:22.110 [AsyncHttpClient-1-8] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2023-03-20 18:13:22.110 [AsyncHttpClient-1-8] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2023-03-20 18:13:22.110 [AsyncHttpClient-1-8] Recycler - -Dio.netty.recycler.chunkSize: 32
+[DEBUG] 2023-03-20 18:13:22.110 [AsyncHttpClient-1-8] Recycler - -Dio.netty.recycler.blocking: false
+[DEBUG] 2023-03-20 18:13:24.097 [AsyncHttpClient-1-10] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2023-03-20 18:13:24.767 [TestNG-PoolService-2] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xd2b977bf9bef7afe
+[INFO ] 2023-03-20 18:13:24.915 [TestNG-PoolService-2] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:24.916 [TestNG-PoolService-2] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Structure Data" without sign in
+[INFO ] 2023-03-20 18:13:24.916 [TestNG-PoolService-2] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:24.926 [TestNG-PoolService-2] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:24.939 [TestNG-PoolService-2] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:25.090 [TestNG-PoolService-6] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:25.090 [TestNG-PoolService-6] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Queue" without sign in
+[INFO ] 2023-03-20 18:13:25.091 [TestNG-PoolService-6] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:25.096 [TestNG-PoolService-6] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:25.098 [TestNG-PoolService-6] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:25.226 [TestNG-PoolService-2] LoggerLoad - Loading Config file
+[INFO ] 2023-03-20 18:13:25.228 [TestNG-PoolService-2] LoggerLoad - Testing on chrome
+[INFO ] 2023-03-20 18:13:25.907 [TestNG-PoolService-3] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:25.907 [TestNG-PoolService-3] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Arrays" without sign in
+[INFO ] 2023-03-20 18:13:25.907 [TestNG-PoolService-3] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-20 18:13:25.909 [TestNG-PoolService-5] LoggerLoad - ===============================================================================================
+[ERROR] 2023-03-20 18:13:25.911 [TestNG-PoolService-3] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:25.911 [TestNG-PoolService-5] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Stack" without sign in
+[INFO ] 2023-03-20 18:13:25.911 [TestNG-PoolService-5] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-20 18:13:25.913 [TestNG-PoolService-3] LoggerLoad - Closing Driver
+[ERROR] 2023-03-20 18:13:25.918 [TestNG-PoolService-5] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:25.922 [TestNG-PoolService-5] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:26.041 [TestNG-PoolService-4] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:26.042 [TestNG-PoolService-4] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Linkedlist" without sign in
+[INFO ] 2023-03-20 18:13:26.042 [TestNG-PoolService-4] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:26.043 [TestNG-PoolService-4] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:26.047 [TestNG-PoolService-4] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:26.134 [TestNG-PoolService-0] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:26.135 [TestNG-PoolService-0] LoggerLoad - [@TC_01] : User launch home page of an dsalgo project
+[INFO ] 2023-03-20 18:13:26.135 [TestNG-PoolService-0] LoggerLoad - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-20 18:13:26.135 [TestNG-PoolService-9] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:26.135 [TestNG-PoolService-9] LoggerLoad - [@TC_04] : User is on Home page and click on sign in
+[INFO ] 2023-03-20 18:13:26.135 [TestNG-PoolService-9] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:26.136 [TestNG-PoolService-0] LoggerLoad - Steps Failed , Taking Screenshot
+[ERROR] 2023-03-20 18:13:26.138 [TestNG-PoolService-9] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:26.138 [TestNG-PoolService-0] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:26.146 [TestNG-PoolService-9] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:26.187 [TestNG-PoolService-1] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:26.188 [TestNG-PoolService-1] LoggerLoad - [@TC_02] : User is on Home page and click getstarted link on  home page without sign in
+[INFO ] 2023-03-20 18:13:26.188 [TestNG-PoolService-1] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:26.192 [TestNG-PoolService-1] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:26.195 [TestNG-PoolService-1] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:26.997 [TestNG-PoolService-7] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:26.997 [TestNG-PoolService-7] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Tree" without sign in
+[INFO ] 2023-03-20 18:13:26.998 [TestNG-PoolService-7] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:27.000 [TestNG-PoolService-7] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:27.002 [TestNG-PoolService-7] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:27.385 [TestNG-PoolService-8] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:27.386 [TestNG-PoolService-8] LoggerLoad - [@TC_03] : User is on Home page and click on dropdown "Graph" without sign in
+[INFO ] 2023-03-20 18:13:27.386 [TestNG-PoolService-8] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:27.388 [TestNG-PoolService-8] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:27.391 [TestNG-PoolService-8] LoggerLoad - Closing Driver
+[INFO ] 2023-03-20 18:13:27.543 [TestNG-PoolService-2] LoggerLoad - ===============================================================================================
+[INFO ] 2023-03-20 18:13:27.543 [TestNG-PoolService-2] LoggerLoad - [@TC_05] : User is on Home page and click on Register
+[INFO ] 2023-03-20 18:13:27.543 [TestNG-PoolService-2] LoggerLoad - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-20 18:13:27.545 [TestNG-PoolService-2] LoggerLoad - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-20 18:13:27.547 [TestNG-PoolService-2] LoggerLoad - Closing Driver
